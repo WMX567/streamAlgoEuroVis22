@@ -17,7 +17,7 @@ const int N = 48;
 const int dim = 500*500*100;
 double time_io = 0;
 string dir = "/scratch/mw4355/Isabel/";
-//********************************* In-Core ******************************************
+//********************************* Reading Function ******************************************
 auto data = new float[N][dim];
 
 af::array readData_Radiation(int file_num){
@@ -151,7 +151,7 @@ array getOne_Vortex(int i){
     delete [] data_;
     return oneStep;
 }
-//********************************** In-Core *****************************************
+//********************************** Reading Function *****************************************
 
 double loss(array& ATB, array& ATA, array& bT, 
     array& a, double& tr_BTB, bool two_near){
