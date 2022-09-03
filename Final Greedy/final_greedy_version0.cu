@@ -16,8 +16,8 @@
 using namespace af;
 using namespace std;
 
-const int N = 400;
-const int n = 200;
+const int N = 400; //Number of Data Samples
+const int n = 200; //Size of the Dataset
 const string dir = "/scratch/mw4355/Radiation/";
 const int dim = 600*248*248;
 double time_io = 0;
