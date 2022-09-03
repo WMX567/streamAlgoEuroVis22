@@ -33,9 +33,9 @@ Please change the paths, information of dataset and the directory of codes accor
 ```bash
 source /ext3/env.sh
 
-nvcc -L/ext3/arrayfire/lib64/ -I/ext3/arrayfire/include basic_greedy.cu timer.cu -o test -lafcuda -lcusolver -lcudart -lcufft -lcublas
+nvcc -L/ext3/arrayfire/lib64/ -I/ext3/arrayfire/include basic_greedy.cu timer.cu -o test_greedy -lafcuda -lcusolver -lcudart -lcufft -lcublas
 
-./test
+./test_greedy
 ```
 time.h, time.cu and time.cpp could be found in the Helper folder.
 
