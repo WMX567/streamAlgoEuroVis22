@@ -1,0 +1,25 @@
+timer.cu(50): warning: variable "start" was declared but never referenced
+
+timer.cu(50): warning: variable "stop" was declared but never referenced
+
+++++++++++++++++++++++++
+Alpha: 1.95312e+06
+Number of Segments: 24
+Breakpoints: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 
+++++++++++++++++++++++++
+Alpha: 9.76562e+06
+Number of Segments: 17
+Breakpoints: 3 5 7 9 11 13 16 19 22 25 28 31 34 37 41 45 48 
+++++++++++++++++++++++++
+Alpha: 2.44141e+08
+Number of Segments: 3
+Breakpoints: 13 31 48 
+++++++++++++++++++++++++
+Alpha: 4.88281e+07
+Number of Segments: 7
+Breakpoints: 6 11 16 23 30 38 48 
+++++++++++++++++++++++++
+Alpha: 0
+Breakpoints: 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 
+Upper:1.05289e+09 Lower: 2.80734e+06
+Time: 148.01
