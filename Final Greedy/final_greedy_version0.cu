@@ -23,7 +23,7 @@ const int dim = 600*248*248;
 double time_io = 0;
 
 // Save result
-ofstream savedFile("Radiation200_saved.txt");
+ofstream savedFile("Radiation400_saved.txt");
 
 
 //+++++++++++++++++++++++++ Reading Functions Area+++++++++++++++++++++++++++++
