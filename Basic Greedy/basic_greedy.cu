@@ -13,9 +13,9 @@
 using namespace af;
 using namespace std;
 
-const int N = 200;
-const string dir = "/scratch/mw4355/Radiation/";
-const int dim =600*248*248;
+const int N = 200;  //Number of Data Samples
+const string dir = "/scratch/mw4355/Radiation/";  //Path of the Dataset
+const int dim =600*248*248;  //Dimension of Each Data Sample
 double time_io = 0;
 
 //+++++++++++++++++++++++++ Reading Functions Area +++++++++++++++++++++++++++++
