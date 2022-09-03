@@ -243,9 +243,6 @@ int main(void){
     int solu[N+1][N+1];
 
     setDevice(0);
-    //string dir = "./gdrive/My Drive/Isabel_Convert/";
-
-    //readData_Vortex();
     readData_Isabel();
 
     TimerStart(1);
