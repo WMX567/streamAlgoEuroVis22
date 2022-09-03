@@ -29,15 +29,16 @@ The information of the original datasets can be found in our paper.
   Sampling is basically the default method in common practice.
 
 ### Run Experiments
-The .sh files provide the method about how we run the experiments. For example, to run the Basic Greedy algorithm, please refer to following commands:
- ```bash
+Please change the paths, information of dataset and the directory of codes accordingly. The .sh files provide the method about how we run the experiments. For example, to run the Basic Greedy algorithm, you could refer to following commands:
+```bash
 source /ext3/env.sh
 
 nvcc -L/ext3/arrayfire/lib64/ -I/ext3/arrayfire/include basic_greedy.cu timer.cu -o test -lafcuda -lcusolver -lcudart -lcufft -lcublas
 
 ./test
+```
+time.h, time.cu and time.cpp could be found in the Helper folder.
 
- ```
  ### Citation
  ```
 @inproceedings{wu2022streaming,
