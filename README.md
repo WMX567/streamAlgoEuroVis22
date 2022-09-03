@@ -29,7 +29,7 @@ The information of the original datasets can be found in our paper.
   Sampling is basically the default method in common practice.
 
 ### Run Experiments
-The .sh files provide the method about how to run the experiments. For example, to run the Basic Greedy algorithm, please refer to following commands:
+The .sh files provide the method about how we run the experiments. For example, to run the Basic Greedy algorithm, please refer to following commands:
  ```bash
 source /ext3/env.sh
 
