@@ -24,7 +24,7 @@ The information of the original datasets can be found in our paper.
 - <strong> Basic Greedy </strong> <br />
   Our novel greedy algorithm is suitable for the online streaming and in situ settings.
 - <strong> Final Greedy </strong> <br />
-  Basic Greedy algorithm is dependent on the optimal cost. Since we do not have access to this value, we propose Final Greedy algorithm that avoids the dependency).
+  Basic Greedy algorithm is dependent on the optimal cost. Since we do not have access to this value, we propose Final Greedy algorithm that avoids the dependency.
 - <strong> Uniform Sampling </strong> <br />
   Sampling is basically the default method in common practice.
 
