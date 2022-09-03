@@ -1,4 +1,4 @@
-## Streaming Approach to In Situ Selection of Key Time Steps for Time‐Varying Volume Data
+### Streaming Approach to In Situ Selection of Key Time Steps for Time‐Varying Volume Data
 
 This repository contains the author's implementation in C++ for the paper "Streaming Approach to In Situ Selection of Key Time Steps for Time‐Varying Volume Data", EuroVis 2022.
 
