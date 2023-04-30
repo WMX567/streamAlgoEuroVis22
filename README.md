@@ -18,7 +18,7 @@ The information of the original datasets can be found in our paper.
 
 ### Algorithms
 - <strong> AR-DP </strong> <br />
-  Accurate dynamic programming method of gives globally optimal solutions to the restricted problem.
+  Accurate dynamic programming method gives globally optimal solutions to the restricted problem.
 - <strong> Our DP </strong> <br />
   Our dynamic programming approach provides globally optimal solutions to the general key time steps selection problem.
 - <strong> Basic Greedy </strong> <br />
