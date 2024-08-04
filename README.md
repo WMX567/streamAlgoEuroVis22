@@ -2,19 +2,19 @@
 
 This repository contains the author's implementation for the paper "Streaming Approach to In Situ Selection of Key Time Steps for Time‐Varying Volume Data", EuroVis 2022.
 
-### Experiemnt Evironment and Dependencies
+### Experiment Evironment and Dependencies
 - 24-core 2.90 GHz Intel Xeon Platinum 8268 CPU
 - 192GB RAM, nVidia Tesla RTX8000 GPU
 - Linux Ubuntu OS
 - ArrayFire Library (Matrix Operations)
 
 ### Datasets
-- Vortex [link](https://drive.google.com/file/d/1Ji7CAZcSvys8BI29e8xEvk66MdargPyn/view?usp=sharing)
-- Isabel [link](https://drive.google.com/file/d/18yIl9eE8Pu2GdvUwgoIodZq0ghDmXR4j/view?usp=sharing)
-- TeraShake [link](https://drive.google.com/file/d/1xMWNbJbw9PUfpeDIxD6ujdUHO-TzS-qs/view?usp=sharing)
-- Radiation [link](https://drive.google.com/drive/folders/14chKxQ9NrumRHHaVbtcglAILwdEgb94y?usp=sharing)
+- Vortex
+- Isabel 
+- TeraShake
+- Radiation
 
-The information of the original datasets can be found in our paper.
+The information on the original datasets can be found in our paper.
 
 ### Algorithms
 - <strong> AR-DP </strong> <br />
@@ -29,7 +29,7 @@ The information of the original datasets can be found in our paper.
   Sampling is basically the default method in common practice.
 
 ### Run Experiments
-Please change the paths, information of dataset and the directory of codes according to your need. The .sh files provide the method about how we run the experiments. For example, to run the Basic Greedy algorithm, you could refer to following commands:
+Please change the paths, information of the dataset, and the directory of codes according to your needs. The .sh files provide the method for how we run the experiments. For example, to run the Basic Greedy algorithm, you could refer to the following commands:
 ```bash
 source /ext3/env.sh
 
